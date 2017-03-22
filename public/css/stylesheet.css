@@ -1,9 +1,9 @@
 body{
-  background-color: #9abff9 !important;
+  background-color: #fa7f6f !important;
   margin-top: 0px;
   padding-left: 15%;
   padding-right: 15%;
-  color: #1854b4;
+  color: #e74c3c;
   font-family: 'Sansita', sans-serif;
 }
 
@@ -24,8 +24,7 @@ h1{
 }
 
 h1:hover{
-  color: #3066c6;
-	font-size: 60px;
+  color: #fa5f4f;
 }
 
 .error{
@@ -73,7 +72,7 @@ form {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: #006e8c;
+  color: #e74c3c;
   font-weight: bold;
   font-size: 16px;
   border-radius: 10px;
@@ -97,7 +96,7 @@ form {
 
 .button {
     width: 259px;
-    background-color: #1854b4;
+    background-color: #e74c3c;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -111,7 +110,7 @@ form {
 
 }
 .button:hover{
-  background-color: #2864c4;
+  background-color: #fa5f4f;
   transition: active 0s;
 }
 .button:active{

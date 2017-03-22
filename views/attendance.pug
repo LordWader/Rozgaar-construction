@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    div.col-md-6.col-md-offset-3.login-box
+      div
+          form(method='POST', action="/scan")
+            input.form-control.button(type="submit", value="ENTRY ATTENDANCE", id="go")
+            br
+            br
+            br
+      div
+          form(method='POST', action="/scan")
+            input.form-control.button(type="submit", value="EXIT ATTENDANCE", id="go")
+
+    script

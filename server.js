@@ -59,8 +59,12 @@ app.post('/search', function(req,res){
 
   })
 
-app.post('/newUser', function(req,res){
-  res.render('newUser', { title: "OZGAAR" });
+app.post('/attendance', function(req,res){
+  res.render('attendance', { title: "OZGAAR" });
+})
+
+app.post('/scan', function(req,res){
+  res.render('scan', { title: "OZGAAR" });
 })
 
 app.post('/adhaar1', function(req,res){
@@ -69,10 +73,6 @@ app.post('/adhaar1', function(req,res){
 
 app.post('/adhaar12', function(req,res){
   res.render('adhaar/2', { title: "OZGAAR" });
-})
-
-app.post('/searchUser', function(req,res){
-  res.render('searchUser', { title: "OZGAAR" });
 })
 
 app.listen((process.env.PORT || 5000),function(err){
