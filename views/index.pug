@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    h2 Welcome to Gram Panchayat Portal
+
+    div.col-md-6.col-md-offset-3.login-box
+      div
+          form(method='POST', action="/newUser")
+            input.form-control.button(type="submit", value="REGISTER NEW USER", id="go")
+            br
+            br
+            br
+      div
+          form(method='POST', action="/searchUser")
+            input.form-control.button(type="submit", value="ACCESS EXISTING USER", id="go")

@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+    h2 Welcome to Gram Panchayat Portal
+    div.row
+          form.list-form(method='POST', action="/adhaar1")
+            h2 Number of Family Members:
+            br
+            input.form-control.button.list-button.list-first(type="submit", value="1", id="go", href='#')
+          form.list-form(method='POST', action="/adhaar2")
+            input.form-control.button.list-button(type="submit", value="2", id="go", href='#')
+          form.list-form(method='POST', action="/adhaar2")
+            input.form-control.button.list-button(type="submit", value="3", id="go", href='#')
+          form.list-form(method='POST', action="/adhaar2")
+            input.form-control.button.list-button(type="submit", value="4", id="go", href='#')
+          form.list-form(method='POST', action="/adhaar2")
+            input.form-control.button.list-button(type="submit", value="5", id="go", href='#')
+          form.list-form(method='POST', action="/adhaar2")
+            input.form-control.button.list-button.list-last(type="submit", value="6", id="go", href='#')
+
+    script

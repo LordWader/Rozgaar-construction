@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+  div.row
+    div.col-md-6.col-md-offset-3.login-box
+      div
+          form(method='POST', action="/login")
+            input.form-control.text-field(name="user", type="text", placeholder="Enter your username")
+            br
+            br
+            br
+            input.form-control.text-field(name="pass", type="password", placeholder="Enter your password")
+            br
+            br
+            br
+            input.form-control.button(type="submit", value="LOGIN", id="go", href='#')
